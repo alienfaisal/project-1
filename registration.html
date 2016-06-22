@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>3 column html template by faisal</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!--<link rel="stylesheet" href="css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="fonts/stylesheet.css">
+		<script type="text/javascript" src="js/reg.js" ></script>
+</head>
+<body>
+	<div class="container">
+		<header class="header-area">
+			<div class="header-banner">
+				<a href="http://wpcoder.tk" target="_blank"><img src="logo.png" alt=""></a>
+			</div>
+		</header>
+		<nav class="nav">
+			<ul>
+				<li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+				<li><a href="registration.html"><i class="fa fa-user"></i> Register</a></li>
+				<li><a href="login.html"><i class="fa fa-sign-in"></i> Login</a></li>
+				<li><a href="feedback.html"><i class="fa fa-heart"></i> Feedback</a></li>
+				<li><a href="about.html"><i class="fa fa-info"></i> About</a></li>
+				<li><a href="contact.html"><i class="fa fa-envelope"></i> Contact</a></li>
+				
+			</ul>
+		</nav>
+		<div class="main-area">
+			<form class="register-main">
+			<h2>Registration Pannel</h2>
+				<input type="name" class="main-register-input" name="name" placeholder="Your name" required>
+				<input type="name" class="main-register-input" name="userid" placeholder="Your username" required>
+			    <input type="email" class="main-register-input" name="emailid" placeholder="Email address" required><br>
+			    <label>Male <input type="radio" class="main-register-gender" name="gender" required> </label>
+			    
+			    <label>female <input type="radio" class="main-register-gender" name="gender" required></label>
+			    
+			    <input type="password" class="main-register-input" name="pass" placeholder="Password" required>
+			    <input type="password" class="main-register-input" name="pass" placeholder="Confirm Password" required>
+			    <input type="submit" value="Create Account" name="submit" onclick="reg_panel()" class="register-button" required>
+		  </form>
+		</div>
+		<footer class="footer-area">
+			<p>Copyright &copy; 2016 <a href="http://wpcoder.tk" target="_blank">wpcoder</a> all rights reserved.</p>
+		</footer>
+	</div>
+</body>
+</html>

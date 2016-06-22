@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>3 column html template by faisal</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!--<link rel="stylesheet" href="css/bootstrap.min.css"> -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="fonts/stylesheet.css">
+	<script type='text/javascript' src='js/login.js'></script>
+</head>
+<body>
+	<div class="container">
+		<header class="header-area">
+			<div class="header-banner">
+				<a href="http://wpcoder.tk" target="_blank"><img src="logo.png" alt=""></a>
+			</div>
+		</header>
+		<nav class="nav">
+			<ul>
+				<li><a href="index.html"><i class="fa fa-home"></i> Home</a></li>
+				<li><a href="registration.html"><i class="fa fa-user"></i> Register</a></li>
+				<li><a href="login.html"><i class="fa fa-sign-in"></i> Login</a></li>
+				<li><a href="feedback.html"><i class="fa fa-heart"></i> Feedback</a></li>
+				<li><a href="about.html"><i class="fa fa-info"></i> About</a></li>
+				<li><a href="contact.html"><i class="fa fa-envelope"></i> Contact</a></li>
+				
+			</ul>
+		</nav>
+		<div class="main-area">
+			<form class="register-main">
+			
+				<h2>Login Pannel</h2>
+				<input type="name" class="main-register-input" name="userid" placeholder="Your username" required>
+			    <input type="password" class="main-register-input" name="pass" placeholder="Your Password" required>
+			    <input type="submit" value="Login" onclick="login_panel()" class="register-button" required>
+			    <p id="message"> </p>
+		  	</form>
+		
+		</div>
+		<footer class="footer-area">
+			<p>Copyright &copy; 2016 <a href="http://wpcoder.tk" target="_blank"><strong>wpcoder</strong></a> all rights reserved.</p>
+		</footer>
+	</div>
+</body>
+</html>
